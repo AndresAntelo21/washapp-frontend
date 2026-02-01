@@ -1,7 +1,9 @@
+import MainLayout from "@/components/layout/MainLayout";
 
-
-export const Home = () => {
+export default function Home() {
     return (
-        <div>home</div>
+        <MainLayout>
+            <h1 className="text-xl">Hola Mundo</h1>
+        </MainLayout>
     )
 }
