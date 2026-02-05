@@ -1,0 +1,7 @@
+{
+  "name": "washapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
