@@ -6,6 +6,7 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
       <header className="bg-white py-4 shadow-md">
         <nav className="container mx-auto flex gap-4">
           <Link href="/">Inicio</Link>
+          <Link href="/about">Acerca de</Link>
         </nav>
       </header>
 
